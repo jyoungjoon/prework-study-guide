@@ -17,16 +17,10 @@ function selectTopics(){
   } else if (randomTopic === 'JavaScript') {
     console.log("Let's study JavaScript!");
   } else {
-    console.log('Please try again!');
+    console.log('I will never be displayed! SadFace');
   }
 }
 console.log('Here are the topics we learned through Prework:');
 listTopics();
 console.log('Which topic should we study first?');
 selectTopics();
-
-console.log('Here are the topics we learned through Prework:');
-listTopics();
-console.log('Which topic should we study first?');
-selectTopics();
-
