@@ -3,10 +3,11 @@ var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
 
 function listTopics() {
-  for (var x = 0; x < topics.length; x++) {
-    console.log(topics[x]);
+  for (const topic of topics) {
+    console.log(topic)
   }
 }
+
 function selectTopics(){
   if (randomTopic === 'HTML') {
     console.log("Let's study HTML!");
