@@ -6,19 +6,22 @@ Prework Study Guide Webpage was created to help students studying for the UCB Co
 are able to keep track of their progress by logging off the topics they have studied and access it at any time. If users are like me, many new topics we learn get forgotten after a few days. This will help refresh students memory and help students retain the information they learn.
 
 ## Installation
-N/A
+
+N/A, only requires a web browser.
 
 ## Usage
+
 To use this Prework Study Guide, you can go through each section and review the notes. You can also open console and refresh the page to see a list of the topics you learned and what topic you can study next; it will randomly select a topic for you to study!
 
 ## Credits
-Young Jang 
-github.com/jyoungjoon
 
-UC Berkeley FSF Coding Bootcamp Prework Module Material
-courses.bootcampspot.com
+
+- Special thanks to [UC Berkeley FSF Coding Bootcamp](https://bootcamp.berkeley.edu/coding/) for providing the material for this project.
+
+- [Young Jang](github.com/jyoungjoon)
 
 ## License
+
 MIT License
 
 ## How to Contribute
@@ -83,8 +86,8 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-[INSERT CONTACT METHOD].
+reported to the community leaders responsible for enforcement at your local police office.
+
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -157,9 +160,5 @@ For answers to common questions about this code of conduct, see the FAQ at
 
 
 ## Tests
-To run tests, run the following command in console:
 
-```console.log(listTopics())
-```console.log(selectTopics())
-
-listTopics should display a list of topics you have studied and selectTopics should give a random topic you can study next.
+To run tests, simply ***refresh*** the page ('F5') and the console will display a list of topics you have studied and a random topic you can study next.
